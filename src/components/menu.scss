@@ -1,0 +1,181 @@
+* {
+  font-family: 'Roboto Flex';
+}
+
+.container {
+  padding: 20px;
+  max-width: 600px;
+
+  &-top {
+    color: #090909;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 26px;
+    line-height: 120%;
+    display: flex;
+    justify-content: space-between;
+    &__img  {
+      background-image: url('../assets/G.svg'), linear-gradient(90deg, #C5ACFF 0%, #FBC2EB 100%);
+      border-radius: 50px;
+      margin-right: 8px;
+      width: 24px;
+      height: 24px;
+      background-repeat: no-repeat;
+      background-position: center;
+
+    }
+    & > div:nth-child(2) {
+      display: flex;
+      align-items: center;
+
+
+
+      > p {
+        color: #090909;
+        font-style: normal;
+        font-weight: 750;
+        font-size: 14px;
+        line-height: 120%;
+      }
+    }
+
+  }
+
+}
+
+.info {
+  &-top {
+    background: #090909;
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+
+    > p {
+      font-style: normal;
+      font-weight: 750;
+      font-size: 12px;
+      line-height: 125%;
+      color: #F9F9F9;
+      margin-right: 16px;
+    }
+
+    > img {
+      padding: 16px;
+      width: 32px;
+      height: 32px;
+      background: linear-gradient(90deg, #C5ACFF 0%, #FBC2EB 100%), #000000;
+      border-radius: 10px;
+    }
+  }
+
+  &-menu {
+
+    &_img {
+      margin-right: 12px;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 50%;
+      width: 32px;
+      height: 32px;
+
+    }
+
+    ._1 {
+      background-image: url('../assets/question.svg');
+      background-color: #5437FF;
+    }
+
+    ._2 {
+      background-image: url('../assets/standart.svg');
+      background-color: #23CE6B;
+    }
+
+    ._3 {
+      background-image: url('../assets/doc.svg');
+      background-color: #883FFF;
+    }
+
+    ._4 {
+      background-image: url('../assets/reestr.svg');
+      background-color: #FFBF00;
+    }
+
+    ._5 {
+      background-image: url('../assets/help.svg');
+      background-color: #56ABFF;
+    }
+
+    ._6 {
+      background-image: url('../assets/sale.svg');
+      background-color: #FF6700;
+    }
+
+    ._7 {
+      background-image: url('../assets/partners.svg');
+      background-color: #34D1BF;
+    }
+
+    ._8 {
+      background-image: url('../assets/favourites.svg');
+      background-color: #5437FF;
+    }
+
+    > button {
+      width: 100%;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #E0E0E0;
+      font-style: normal;
+      font-weight: 750;
+      font-size: 16px;
+      line-height: 120%;
+      color: #2D2D2D;
+      cursor: pointer;
+
+      > div {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
+
+.footer {
+  margin-top: 48px;
+  background-color: #9A989A;
+  height: 90px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+>button:nth-last-child(1){
+  >p{
+    background: linear-gradient(90deg, #C5ACFF 0%, #FBC2EB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+}
+  > button {
+    width: 100%;
+    height: 49px;
+
+    > p {
+      font-size: 10px;
+      line-height: 10px;
+      font-style: normal;
+      font-weight: 750;
+    }
+  }
+}
+*button{
+  border: none;
+  outline: none;
+  background-color: unset;
+  padding: unset;
+}
